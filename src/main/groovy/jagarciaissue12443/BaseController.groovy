@@ -1,4 +1,7 @@
 package jagarciaissue12443
 
-class BaseController {
+abstract class BaseController {
+    def terms() {
+        render view: '/legal/terms'
+    }
 }
